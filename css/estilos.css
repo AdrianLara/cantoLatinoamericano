@@ -1,0 +1,157 @@
+body {overflow-x: hidden;
+background-color: black;}
+
+.cabezera {
+  height: 229px;
+  background-image: url('../img/cielo2.png');
+  background-repeat: repeat-x;
+  background-position: left top;
+  background-color: #050505;
+}
+.navegacion {
+  height: 60px;
+    margin 0px;
+    padding: 0px;
+    width: 100%;  
+  background-color: black;
+}
+.contenido {
+  
+  height: 700px;
+    width: 100%;
+  background-color: black;
+}
+.contenidoEvent{
+    background-image: url(../img/cantos.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 0px;
+    height: 400px;
+    width: 100%;
+  background-color: black;
+}
+
+.contenidoDisco{
+    height: 1300px;
+    width: 100%;
+  background-color: black;
+}
+
+.contenidoContact{
+    height: 800px;
+    width: 100%;
+    background-position: center;
+  background-color: brown;
+}
+
+.pie {
+  height: 200px;
+  background-image: url('../img/bottom.png'), url('../img/bottom2.png'), url('../img/bottom3.png');
+  background-position: left top,
+                         left top,
+                         left top;
+  background-repeat: repeat-x, repeat-x, repeat-x;
+  background-color: black;
+    
+    
+}
+
+.menu {
+  height: 80px;
+    width: 100%
+  background: black;
+    padding: 0px;
+margin-bottom: 150px;
+    margin-top: 50px;
+}
+.textopie {
+    position: relative;
+  padding-top: 10%;
+    margin: 5px;
+    color:black;
+}
+.textcotel {
+  font-family: 'Chewy', cursive;
+  font-size: 3em;
+}
+.summer {
+  font-size: 5em;
+  font-family: 'Chewy', cursive;
+}
+.fest {
+  font-family: 'Chewy', cursive;
+}
+.carousel-inner { text-align: center; 
+margin: 30px;}
+.carousel .item > img { display: inline-block; }
+
+.icono{
+    margin: 10px;
+    padding: 40px;
+}
+.fb{
+    
+
+}
+a{
+    color: #eb943c;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+   background-color: #ac1c10!important; 
+    color: #eb943c;
+    background-image: linear-gradient(to bottom, #D42020 0%, #5A2308 100%);
+}
+
+.secEvents{
+    background-position: left;
+}
+.card{
+    color: #d6951a;
+}
+.btn-info{
+    background-image: linear-gradient(to bottom, #ac1c10 20%, #F33728 80%);
+    border-color: #d27d1a;
+    color: #eb943c;
+    margin-bottom: 30px;
+}
+.btn-default{
+    text-shadow: #d27d1a;
+    background-image: linear-gradient(to bottom, #eb943c 0%, #eb943c 100%);
+    color: #e2240b;
+}
+.modal-content{
+    background-color: #ac1c10;
+    color:#eb942e;
+}
+
+.img-thumbnail{
+    background-color: #DE8011;
+    border: 2px solid #D41F0F;
+}
+.navbar-default{
+background-image: linear-gradient(to bottom, #D41F0F 0%, #000000 100%);
+color: #eb943c;
+    border-color: black;
+}
+
+.navbar-default  .navbar-nav > li > a {
+    color: #eb943c;
+}
+.navbar-default .navbar-brand {
+    color: #eb943c;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #CE1A1A;
+    border-color: #eb942e;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: brown;
+}
+.form-group{
+    color: #eb943c;
+   height: 30px;
+    width: 600px;
+}
